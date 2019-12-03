@@ -11,6 +11,7 @@ client.on('ready', () {
         var daysleft = 25 - d.getDate()
 
         client.user.setActivity(daysleft + ' days before Christmas 🎄', { type: "WATCHING" })
+        //client.user.setActivity('les '+ daysleft + ' avant Noel 🎄', { type: "WATCHING" })
     }, 86399990);
 
     console.log(`Connecté avec ${client.user.tag}`);
