@@ -5,7 +5,7 @@ const TOKEN = 'YOUR_SUPER_SECRET_TOKEN'
 
 client.login(TOKEN)
 
-client.on('ready', function() {
+client.on('ready', () {
     setTimeout(() => {
         var d = new Date
         var daysleft = 25 - d.getDate()
